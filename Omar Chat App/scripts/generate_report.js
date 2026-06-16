@@ -13,9 +13,9 @@ import {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const outDocx = path.join(__dirname, '..', 'CEN306_OMAR_Chat_Project_Report.docx');
+const GITHUB_URL = 'https://github.com/om-ar-123/ChatApplication-Whatsapp-style.git';
+const YOUTUBE_URL = 'https://youtu.be/NMbdp9CBy3g';
 const shotsDir = path.join(__dirname, '..', 'report_assets', 'screenshots');
-
-// Istanbul Climate report palette
 const BLUE = '1F4E79';
 const BLUE_LIGHT = 'D9EAF7';
 const ROW_ALT = 'F4F6F7';
@@ -250,8 +250,8 @@ const headerPage = [
     ['Course Name', 'CEN306 - Mobile Application Design and Development'],
     ['Instructor', 'Dr. Yıldız Karadayı'],
     ['Submission Date', '15/06/2026'],
-    ['GitHub / Source Code Link', '[Add repository URL]'],
-    ['Demo Video YouTube Link', '[Add YouTube link]'],
+    ['GitHub / Source Code Link', GITHUB_URL],
+    ['Demo Video YouTube Link', YOUTUBE_URL],
     ['Application Name', 'OMAR Chat'],
   ]),
   para('', { after: 40 }),
@@ -836,8 +836,8 @@ const headerPage = [
   ], [6, 22, 72]),
   h2('Appendix B: Repository and Submission Links'),
   table(['Item', 'Link / note'], [
-    ['Source code repository', '[Add repository URL]'],
-    ['Demo video', '[Add YouTube URL]'],
+    ['Source code repository', GITHUB_URL],
+    ['Demo video', YOUTUBE_URL],
     ['Source code zip', 'lib/ folder + pubspec.yaml only (OMAR_Chat_SourceCode.zip)'],
   ], [30, 70]),
 ];

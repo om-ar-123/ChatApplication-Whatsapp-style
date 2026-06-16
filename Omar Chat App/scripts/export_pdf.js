@@ -9,6 +9,8 @@ import puppeteer from 'puppeteer-core';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
 const pdfPath = path.join(root, 'CEN306_OMAR_Chat_Project_Report.pdf');
+const GITHUB_URL = 'https://github.com/om-ar-123/ChatApplication-Whatsapp-style.git';
+const YOUTUBE_URL = 'https://youtu.be/NMbdp9CBy3g';
 const shotsDir = path.join(root, 'report_assets', 'screenshots');
 
 const BLUE = '#1F4E79';
@@ -103,6 +105,8 @@ ${coverRow('Student Name-Surname', 'OMAR ASLAN & MALAK MEDHAT', false)}
 ${coverRow('Student Number', '22040102144 / 22040102054', true)}
 ${coverRow('Instructor', 'Dr. Yıldız Karadayı', false)}
 ${coverRow('Submission Date', '15/06/2026', true)}
+${coverRow('GitHub / Source Code Link', GITHUB_URL, false)}
+${coverRow('Demo Video YouTube Link', YOUTUBE_URL, true)}
 </table>
 <p style="font-size:8pt;margin-top:6px">Academic Integrity Statement: I confirm that this report and project were prepared by me and that all external sources, libraries, code snippets, and datasets are properly acknowledged.</p>
 <div class="page-break"></div>

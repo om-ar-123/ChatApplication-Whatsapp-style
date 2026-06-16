@@ -113,7 +113,9 @@ Demo user: **OMAR** (ID `1`) — see `DbConstants.currentUserId`.
 
 ## Report
 
-- `CEN306_OMAR_Chat_Project_Report.docx` / `.pdf`
+- `CEN306_OMAR_Chat_Project_Report.pdf` (submission) / `.docx` (editable)
+- **GitHub:** https://github.com/om-ar-123/ChatApplication-Whatsapp-style.git
+- **Demo video:** https://youtu.be/NMbdp9CBy3g
 - Regenerate: `scripts\build_report.bat`
 
 ## License
